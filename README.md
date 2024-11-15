@@ -22,7 +22,7 @@
   
 
 ## EXAMPLE USSAGE
-```php udp_scanner.php <target> <port> <threads> <timeout> <payloads.txt> <result.txt> <min_amp[1.23]> <interface>```
+```php udp_scanner.php <target[IP or CIDR]> <port> <threads> <timeout> <payloads.txt> <result.txt> <min_amp[1.23]> <interface>```
 
 ```php udp_scanner.php 8.8.8.8 53 100 3 udp_payloads.txt result.txt 20 eth0```
 
