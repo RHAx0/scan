@@ -9,7 +9,7 @@
         by rhadev@protonmail.com              	
 ```
 
-##UDP SCANNER v1.0.1 BY RHA.DEV - https://github.com/RHAx0
+## UDP SCANNER v1.0.1 BY RHA.DEV - https://github.com/RHAx0
 
 - **Parameters**:
   - `TARGET` (string): IP or CIDR (10.0.0.1 or 10.0.0.0/24)
