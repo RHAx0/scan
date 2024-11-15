@@ -20,13 +20,12 @@
   - `AMP VECTOR` (float): Calculated based on the sent and received packet size
   - `INTERFACE` (string): You can use eth0 or any vpn interface
   
- 
-php udp_scanner.php <target> <port> <threads> <timeout> <payloads.txt> <result.txt> <min_amp[1.23]> <interface>
 
+## EXAMPLE USSAGE
+- **php udp_scanner.php <target> <port> <threads> <timeout> <payloads.txt> <result.txt> <min_amp[1.23]> <interface>**
+- **php udp_scanner.php 8.8.8.8 53 100 3 udp_payloads.txt result.txt 20 eth0**
+- **php udp_scanner.php 8.8.8.0/24 53 500 1 udp_payloads.txt result.txt 20 vpn0**
 
-#EXAMPLE USSAGE VIA COMMANDLINE:
-php udp_scanner.php 8.8.8.8 53 100 3 udp_payloads.txt result.txt 20 eth0
-php udp_scanner.php 8.8.8.0/24 53 500 1 udp_payloads.txt result.txt 20 vpn0
 
 ## Contact
 For any questions, you can reach me at [rhadev@protonmail.com](mailto:rhadev@protonmail.com).
